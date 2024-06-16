@@ -1,11 +1,12 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import './layout.scss';
 
 function App() {
  
   return (
-    <>
+    <div className='layout'>
      hello world
-    </>
+    </div>
   )
 }
 
