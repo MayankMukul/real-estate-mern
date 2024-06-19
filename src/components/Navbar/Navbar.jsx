@@ -15,8 +15,19 @@ export default function Navbar() {
         <a href="/">Agents</a>
       </div>
       <div className="right">
-        <a href="/" >Signin</a>
-        <a href="/" className='register' >SignUp</a>
+        <a href="/" >Sign in</a>
+        <a href="/" className='register' >Sign Up</a>
+        <div className="menuIcon">
+          <img src="/menu.png" alt="menu" />
+        </div>
+        <div className="menu">
+        <a href="/">Home</a>
+        <a href="/">About</a>
+        <a href="/">Contacts</a>
+        <a href="/">Agents</a>
+        <a href="/">Sigh In</a>
+        <a href="/">Sign Up</a>
+        </div>
       </div>
     </nav>
   );
