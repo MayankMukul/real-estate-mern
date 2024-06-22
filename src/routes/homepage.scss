@@ -1,0 +1,25 @@
+.homepage{
+    display: flex;
+    height: 100%;
+
+    .textContainer{
+        flex: 3;
+
+        .wrapper{
+            padding-right: 100px;
+        }
+    }
+
+    .imgContainer{
+        flex: 2;
+        background-color: rgb(255, 227, 203);
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        img{
+            position: relative;
+            right: 0;
+        }
+    }
+}
