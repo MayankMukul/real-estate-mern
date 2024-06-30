@@ -3,10 +3,10 @@ import './searchbar.scss';
 
 export default function SearchBar() {
 
-  const types = ["Buy", "Rent"];
+  const types = ["buy", "rent"];
 
   const [query, setQuery] = useState({
-    type: "Buy",
+    type: "buy",
     location: null,
     minPrice: 0,
     maxPrice: 0,
@@ -44,9 +44,9 @@ export default function SearchBar() {
           max={100000}
           placeholder="Max Price"
         />
+      <button>Search</button>
       </form>
 
-      <button>Search</button>
     </div>
   );
 }
