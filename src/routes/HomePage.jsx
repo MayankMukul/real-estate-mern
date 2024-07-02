@@ -18,21 +18,21 @@ export default function HomePage() {
           <div className="boxes">
             <div className="box">
               <h1>16+</h1>
-              <h2>year of experence</h2>
+              <h4>year of experence</h4>
             </div>
             <div className="box">
               <h1>200+</h1>
-              <h2>Award and gain</h2>
+              <h4>Award and gain</h4>
             </div>
             <div className="box">
               <h1>1200+</h1>
-              <h2>Property Ready</h2>
+              <h4>Property Ready</h4>
             </div>
           </div>
         </div>
       </div>
       <div className="imgContainer">
-        <img src="bgsample.jpg" alt="background Image" />
+        <img src="./public/images/home_bg.svg" alt="background Image" />
       </div>
     </div>
   );
