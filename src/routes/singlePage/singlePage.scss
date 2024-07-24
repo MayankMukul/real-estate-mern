@@ -1,0 +1,56 @@
+.singlePage{
+
+    display: flex;
+    height: 100%;
+    
+    .details{
+        flex: 3;
+        
+        .wrapper{
+            padding-right: 50px;
+
+            .info{
+                .top{
+                    display: flex;
+                    justify-content: space-between;
+
+                    .post{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        h1{
+                            font-weight: 200h;
+                        }
+
+                        .address{
+
+                        }
+
+                        .price{
+
+                        }
+                    }
+
+                    .user{
+
+                        img{
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .features{
+        flex: 2;
+        background-color: rgb(255, 227, 203);
+        
+        .wrapper{
+            padding: 0 20px;
+        }
+    }
+}
