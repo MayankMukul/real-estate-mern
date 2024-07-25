@@ -23,15 +23,38 @@
                         }
 
                         .address{
+                            display: flex;
+                            gap: 5px;
+                            align-items: center;
+                            color: gray;
+                            font-size: 14px;
 
+                            img{
+                                height: 16px;
+                                width: 16px;
+                            }
                         }
 
                         .price{
-
+                            padding: 5px;
+                            background-color: rgb(255, 235, 218);
+                            border-radius: 5px;
+                            width: max-content;
+                            font-size: 20px;
+                            font-weight: 300;
                         }
                     }
 
                     .user{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 20px;
+                        padding: 0px 50px;
+                        border-radius: 10px;
+                        background-color: rgb(255, 235, 218);
+                        font-weight: 600;
 
                         img{
                             width: 50px;
@@ -40,6 +63,12 @@
                             object-fit: cover;
                         }
                     }
+                }
+                
+                .bottom{
+                    margin-top: 50px;
+                    color: #555;
+                    line-height: 20px;
                 }
             }
         }
