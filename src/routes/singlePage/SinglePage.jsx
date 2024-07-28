@@ -16,21 +16,32 @@ export default function SinglePage() {
                 <div className="address">
                   <img src="/pin.jpg" alt="address" />
                   <span>{singlePostData.address}</span>
-                  <div className="price">₹{singlePostData.price}</div>
                 </div>
+                  <div className="price">₹{singlePostData.price}</div>
               </div>
               <div className="user">
                 <img src={userData.img} alt="user" />
                 <span>{userData.name}</span>
               </div>
             </div>
-            <div className="bottom"></div>
+            <div className="bottom">
+              {singlePostData.description}
+            </div>
           </div>
         </div>
       </div>
       <div className="features">
         <div className="wrapper">
-
+          <p className="title">General</p>
+          <div className="listVertical"></div>
+          <p className="title">Sizes</p>
+          <div className="sizes"></div>
+          <p className="title">Nearby Places</p>
+          <div className="listHorizontal"></div>
+          <p className="title">Location</p>
+          <div className="mapContainer">
+            <Map></Map>
+          </div>
         </div>
       </div>
     </div>
