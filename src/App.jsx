@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Login from './routes/login/Login.jsx';
 import SinglePage from './routes/singlePage/SinglePage.jsx';
+import ProfilePage from './routes/profilePage/ProfilePage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path:'/login',
         element:<Login></Login>
+      },
+      {
+        path:'/profilePage',
+        element:<ProfilePage/>
       },
       {
         path:'/:id',
