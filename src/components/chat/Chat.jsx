@@ -7,7 +7,10 @@ export default function Chat() {
       <div className="messages">
         <h1>Messages</h1>
         <div className="message">
-          <img src="https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <img
+            src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt=""
+          />
           <span>Jhon Doe</span>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
@@ -15,7 +18,10 @@ export default function Chat() {
           </p>
         </div>
         <div className="message">
-          <img src="https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <img
+            src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt=""
+          />{" "}
           <span>Jhon Doe</span>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
@@ -23,7 +29,10 @@ export default function Chat() {
           </p>
         </div>
         <div className="message">
-          <img src="https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <img
+            src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt=""
+          />{" "}
           <span>Jhon Doe</span>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
@@ -31,7 +40,10 @@ export default function Chat() {
           </p>
         </div>
         <div className="message">
-          <img src="https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <img
+            src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt=""
+          />{" "}
           <span>Jhon Doe</span>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
@@ -39,7 +51,10 @@ export default function Chat() {
           </p>
         </div>
         <div className="message">
-          <img src="https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <img
+            src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt=""
+          />{" "}
           <span>Jhon Doe</span>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
