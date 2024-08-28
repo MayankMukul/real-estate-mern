@@ -121,7 +121,7 @@ export default function Chat() {
         </div>
         <div className="bottom">
           <textarea name="" id=""></textarea>
-          <button></button>
+          <button>Send</button>
         </div>
       </div>}
     </div>

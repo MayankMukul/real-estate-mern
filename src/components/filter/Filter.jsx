@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './filter.scss';
 
 export default function Filter() {
   return (
@@ -63,6 +64,9 @@ export default function Filter() {
             placeholder="any"
           />
         </div>
+        <button>
+          Search
+        </button>
       </div>
     </div>
   );
