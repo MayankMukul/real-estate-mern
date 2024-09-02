@@ -79,6 +79,7 @@
         cursor: pointer;
         background-color: yellow;
         flex: 1;
+        padding: 10px;
 
         @include sm{
             padding: 10px;
